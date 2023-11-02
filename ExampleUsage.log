@@ -1,0 +1,83 @@
+D:\dev\resources\other_tools>jenkinscli 405331
+*****************************************************
+** Jenkins Command Line Interactive [Version 0.0.1.a]
+** (c) 2022 Dang Huy Hoang. All rights reserved.
+*****************************************************
+** CAUTION 0: This version only supports one command at a time
+** CAUTION 1: use command below to switch working directory
+**          chdir D:
+**          chdir C:\\Workspace
+**          chdir the-path-with-double-backslash-and-no-trailing-backslash
+** CAUTION 2: use command below to exit the current session:
+**          exit
+*****************************************************
+
+Entering node 405331...
+
+JenkinsCLI "C:\\Workspace" [405331]>ls
+00_Startup
+7-Zip
+Cygwin
+Cygwin.zip
+Free English-Vietnamese Dictionary.ld2
+Free Vietnamese-English Dictionary.ld2
+Git
+GnuWin32
+java204
+
+JenkinsCLI "C:\\Workspace" [405331]>pwd
+/c/Workspace
+
+JenkinsCLI "C:\\Workspace" [405331]>chdir D:
+/d
+
+JenkinsCLI "D:" [405331]>ls
+$RECYCLE.BIN
+00_Repo
+02_Jobs
+CICD
+CICD@tmp
+GUTGen
+System Volume Information
+TUT_ETH
+TUT_EthU2BxCommonize
+TUT_output
+TUT_output_U2x
+Workspace
+Workspace@tmp
+loadfrom.dll
+loadfrom1.dll
+spiusdt
+test
+zz_work_by_DHH
+
+JenkinsCLI "D:" [405331]>echo hello > hello.txt
+
+JenkinsCLI "D:" [405331]>cat hello.txt
+hello
+
+JenkinsCLI "D:" [405331]>ls
+$RECYCLE.BIN
+00_Repo
+02_Jobs
+CICD
+CICD@tmp
+GUTGen
+System Volume Information
+TUT_ETH
+TUT_EthU2BxCommonize
+TUT_output
+TUT_output_U2x
+Workspace
+Workspace@tmp
+hello.txt
+loadfrom.dll
+loadfrom1.dll
+spiusdt
+test
+zz_work_by_DHH
+
+JenkinsCLI "D:" [405331]>exit
+Exiting...
+
+D:\dev\resources\other_tools>
